@@ -35,7 +35,7 @@ Utilize a IDE para editar o código.
 
 
 ### Comandos úteis cypress
-```
+
 Criar o diretório inicial e indicar para o node que o diretório é um projeto
 
 npm init
@@ -48,7 +48,7 @@ Abrir cypress pela linha de comando:
 ./node_modules/.bin/cypress open
 
 
-#### Gerando um report 
+## Gerando um report 
 
 1. Adicionando as dependências necessárias para gerar o reporte de testes:
 npm i --save-dev cypress-mochawesome-reporter
