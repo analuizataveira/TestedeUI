@@ -16,7 +16,7 @@ https://www.oracle.com/java/technologies/javase-downloads.html
 https://maven.apache.org
 
 
-### Instalação - Cypress (Teste de UI):
+## Instalação - Cypress (Teste de UI):
 
 1. Faça a instalação do cypress via linha de comando. Abra o terminal e digite
 
@@ -34,7 +34,7 @@ Utilize a IDE para editar o código.
 
 
 
-#### Comandos úteis cypress
+### Comandos úteis cypress
 ```
 Criar o diretório inicial e indicar para o node que o diretório é um projeto
 
