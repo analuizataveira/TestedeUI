@@ -12,11 +12,7 @@ https://code.visualstudio.com/
 2. JDK (java):
 https://www.oracle.com/java/technologies/javase-downloads.html
 
-3. Maven (mvn)
-https://maven.apache.org
-
-
-4. Instalação - Cypress (Teste de UI):
+3. Instalação - Cypress (Teste de UI):
 
  Faça a instalação do cypress via linha de comando. Abra o terminal e digite
 
