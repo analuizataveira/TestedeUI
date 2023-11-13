@@ -48,7 +48,7 @@ Abrir cypress pela linha de comando:
 ./node_modules/.bin/cypress open
 
 
-## Gerando um report 
+#### Gerando um report 
 
 1. Adicionando as dependências necessárias para gerar o reporte de testes:
 npm i --save-dev cypress-mochawesome-reporter
