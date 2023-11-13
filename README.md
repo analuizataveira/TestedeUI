@@ -16,16 +16,15 @@ https://www.oracle.com/java/technologies/javase-downloads.html
 https://maven.apache.org
 
 
-## Instalação - Cypress (Teste de UI):
+4. Instalação - Cypress (Teste de UI):
 
-1. Faça a instalação do cypress via linha de comando. Abra o terminal e digite
+ Faça a instalação do cypress via linha de comando. Abra o terminal e digite
 
 ```
 npm install cypress
 
 ```
-
-2. Download cypress direto do site: https://www.cypress.io/
+ Download cypress direto do site: https://www.cypress.io/
 
 Link para download direto: https://download.cypress.io/desktop
 
@@ -33,20 +32,23 @@ Basta baixar, extrair, executar o Cypress.exe e apontar para o diretório do pro
 Utilize a IDE para editar o código.
 
 
-
-### Comandos úteis cypress
+## Comandos cypress
 
 Criar o diretório inicial e indicar para o node que o diretório é um projeto
-
+```
 npm init
+```
 
 Baixar as dependencias do projeto 
-
+```
 npm install
+```
 
 Abrir cypress pela linha de comando:
+```
 ./node_modules/.bin/cypress open
-
+```
+Selecionar na tela principal o arquivo teste trabalhoui
 
 ## Gerando um report 
 
@@ -54,8 +56,8 @@ Abrir cypress pela linha de comando:
 npm i --save-dev cypress-mochawesome-reporter
 	
 2. Modificar o arquivo cypress.config.js:
+```
 const { defineConfig } = require('cypress');
-
 module.exports = defineConfig({
   reporter: 'cypress-mochawesome-reporter',
   e2e: {
@@ -64,10 +66,13 @@ module.exports = defineConfig({
     },
   },
 });
-
+````
 3. Adicionar em cypress/support/e2e.js:
+```
 import 'cypress-mochawesome-reporter/register';
-
+```
 4. Rodar specs pela linha de comando:
+```
 ./node_modules/.bin/cypress run --spec 'cypress/e2e/**/'
-
+```
+6. Abrir o arquivo index.html gerado
